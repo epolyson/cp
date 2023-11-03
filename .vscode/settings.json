@@ -3,6 +3,11 @@
         "ostream": "cpp",
         "set": "cpp",
         "iostream": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "__locale": "cpp",
+        "complex": "cpp",
+        "valarray": "cpp",
+        "iomanip": "cpp",
+        "string": "cpp"
     }
 }

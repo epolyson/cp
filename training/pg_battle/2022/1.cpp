@@ -22,39 +22,44 @@ using namespace std;
 template <class T>
 inline bool chmin(T &a, T b)
 {
-   if (a > b)
-   {
-      a = b;
-      return true;
-   }
-   return false;
+    if (a > b)
+    {
+        a = b;
+        return true;
+    }
+    return false;
 }
 template <class T>
 inline bool chmax(T &a, T b)
 {
-   if (a < b)
-   {
-      a = b;
-      return true;
-   }
-   return false;
+    if (a < b)
+    {
+        a = b;
+        return true;
+    }
+    return false;
 }
 template <class T>
 inline void printVec(vector<T> v)
 {
-   REP(i, v.size())
-   {
-      if (i)
-         cout << " ";
-      cout << v[i];
-   }
-   cout << endl;
+    REP(i, v.size())
+    {
+        if (i)
+            cout << " ";
+        cout << v[i];
+    }
+    cout << endl;
 }
 
 int main()
 {
-   FAST int n;
-   cin >> n;
-   cout << n * n << endl;
-   return 0;
+    FAST
+        string s;
+    cin >> s;
+
+    cout << "8190";
+    REP3(i, 3, s.length())
+    cout << s[i];
+    cout << endl;
+    return 0;
 }

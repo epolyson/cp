@@ -1,0 +1,53 @@
+# アクセス修飾子のインデント
+AccessModifierOffset: -2
+
+# 引数は左揃え
+AlignAfterOpenBracket: Align
+
+# 初期化子リストを左揃え
+AlignArrayOfStructures: Left
+
+# 連続する行の位置を揃える
+AlignConsecutiveAssignments: true   # "="
+AlignConsecutiveDeclarations: true  # 宣言
+AlignConsecutiveMacros: true        # マクロ
+AlignTrailingComments: true         # コメント
+
+# 二項演算子と三項演算子を揃える
+AlignOperands: true
+
+# 短い関数を単一行にしない
+AllowShortFunctionsOnASingleLine: All
+
+# "{ }"の位置をカスタム設定する
+BreakBeforeBraces: Attach
+
+# 1行の文字数を制限する (0で無制限)
+ColumnLimit: 100
+
+# include
+IncludeBlocks: Merge
+
+# swicth分のcaseにインデントを設定する
+IndentCaseLabels: true
+
+# インデント
+IndentWidth: 2
+
+# ポインターの"*"、"&"は変数宣言の左に記述する
+PointerAlignment: Right
+
+# コメントは改行しない
+ReflowComments: false
+
+# キャストの後ろにスペースを入れない
+SpaceAfterCStyleCast: false
+
+# 演算子の前にスペースを入れるか
+SpaceBeforeAssignmentOperators: true
+
+# 制御文の"("の前にスペースを入れる
+SpaceBeforeParens: ControlStatements
+
+# コメントの前にスペース入れる
+SpacesBeforeTrailingComments: 1

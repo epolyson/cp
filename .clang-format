@@ -32,7 +32,7 @@ IncludeBlocks: Merge
 IndentCaseLabels: true
 
 # インデント
-IndentWidth: 2
+IndentWidth: 4
 
 # ポインターの"*"、"&"は変数宣言の左に記述する
 PointerAlignment: Right
